@@ -90,7 +90,4 @@ def pay():
 
 
 if __name__ == '__main__':
-    # parser = argparse.ArgumentParser(description="A program to scalp dolls" )
-    # parser.add_argument('url', type=str, help="url of the doll")
-    # args = parser.parse_args()
     main()
