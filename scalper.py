@@ -9,9 +9,6 @@ from selenium.webdriver.common.window import WindowTypes
 import argparse
 import time
 
-
-
-
 print("-----------------------------------------")
 print(" Welcome to santi's VolksUSA 'Scalper'! ")
 print("-----------------------------------------")
@@ -19,13 +16,8 @@ url = input("[*]Please enter url: ")
 max_retries_input = input("\n[*]Please enter amount of tries: ")
 print("-----------------------------------------")
 
-# Add the desired user-agent string as an argument
-#custom_user_agent ="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
-#chrome_options.add_argument(f"{custom_user_agent}")
 
 driver = webdriver.Firefox()
-
-# Initializing chrome web driver
 
 # go into login page of website and login
 driver.get("https://volksusa.store/account/login?error=login_required")
